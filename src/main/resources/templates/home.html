@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Галерея фотографий</title>
+    <style>
+        .gallery {
+            display: flex;
+            justify-content: space-between;
+        }
+        .photo {
+            width: 30%;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .photo img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+<h1>Галерея фотографий</h1>
+<div class="gallery">
+    <div class="photo">
+        <img src="imeges/woman-3169726_640.jpg" alt="Фото 1">
+        <p> th:text ="${message}" </p>
+    </div>
+    <div class="photo">
+        <img src="/umbrella-1822586_640.jpg" alt="Фото 2">
+        <p>Описание из базы данных 2</p>
+    </div>
+    <div class="photo">
+        <img src="/morning-1369446_640.jpg" alt="Фото 3">
+        <p>Описание из базы данных 3</p>
+    </div>
+</div>
+</body>
+</html>
